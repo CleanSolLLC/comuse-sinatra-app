@@ -5,6 +5,7 @@ if ActiveRecord::Migrator.needs_migration?
 end
 
 #allows for patch and delete
-`use Rack::MethodOverride`
+use Rack::MethodOverride
 
+use UsersController
 run ApplicationController
