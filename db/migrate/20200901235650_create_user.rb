@@ -7,6 +7,8 @@ class CreateUser < ActiveRecord::Migration
   		t.string :bio
   		t.string :image_url
 
+  		t.timestamps null: false
+
   	end
   end
 end
